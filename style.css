@@ -5,7 +5,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-family: Arial, Helvetica, "sans-serif"
+    font-family: Arial, Helvetica, "sans-serif";
 
 }
 
@@ -56,6 +56,7 @@ body {
     border-style: ridge;
     border-radius: 15px;
     font-size: large;
+    font-weight: 600;
     border-color: lightskyblue;
     border-width: 8px;
     margin: 50px;
@@ -68,6 +69,8 @@ body {
     font-size: x-large;
     color: black;
     border-style: outset;
+    background-color: rgb(158, 238, 158);
+    padding: 8px;
 
 }
 
@@ -77,10 +80,106 @@ a:active {
 }
 
 a:hover {
-    color: yellowgreen;
+    color: white;
 }
 
 a:visited {
 
-    color: yellowgreen;
+    color: grey;
+}
+
+.fa-house {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+}
+
+.DL {
+
+    border-style: ridge;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 600;
+    border-color: lightskyblue;
+    border-width: 8px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.COD {
+
+    border-style: ridge;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 600;
+    border-color: lightskyblue;
+    border-width: 8px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.number {
+
+
+}
+#ranktitle {
+
+    border-style: outset;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(158, 238, 158);
+    text-align: center;
+}
+
+.number1 {
+    
+    border-style: ridge;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 600;
+    border-color: lightskyblue;
+    border-width: 8px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.number2 {
+
+    border-style: ridge;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 600;
+    border-color: lightskyblue;
+    border-width: 8px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.number3 {
+    border-style: ridge;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 600;
+    border-color: lightskyblue;
+    border-width: 8px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.button {
+
+    background-color: lightskyblue;
+}
+button:hover {
+
+    background-color: rgb(158, 238, 158);
+    color: white;
+    
 }
